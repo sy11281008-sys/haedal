@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자기소개 페이지</title>
+    <link rel="stylesheet" href="styless2.css">
+</head>
+<body>
+
+    <div class="tags">
+                <span class="tag"><strong>PROFILE</strong></span>
+                <span class="tag"><strong>ABOUT ME</strong></span>
+                <span class="tag"><strong>CONTACT ME</strong></span>
+    </div>
+    
+    <div class="profile">
+        <span class="name"><strong>나이:</strong> 21살</span>
+        
+        <span class="photo">
+            <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDA1MTNfMTc5%2FMDAxNzE1NTI4OTgwMjAz.BTqKFOztPedcBVnJ0Gac8rFU5vp9Pv67Tr3mL99N-4Mg.wjSk7XpOqscpN9lO1P_ploOYXs3FrunekgXNmONTUF8g.JPEG%2FIMG_4517.JPG&type=sc960_832" alt="프로필 사진" width="250" height="250">
+        </span>
+        
+        <span class="name"><strong>이름:</strong> 배효진</span>
+        <hr>
+        <div class="low1"><h3>PROFILE</h3></div>
+    </div>
+
+
+    <div class="about-me-yellow">
+        <div class="info">
+            <ul>
+                <li><strong>전공:</strong> 경북대 전자공학부 25학번</li>
+                <li><strong>MBTI:</strong> INTP</li>
+                <li><strong>좋아하는 것:</strong> 아무런 스케줄 없는 날</li>
+                <li><strong>취미:</strong> 야구 시청</li>
+                <li><strong>좌우명:</strong> 준비된 자에게 기회는 온다</li>
+            </ul>
+        </div>
+        
+        <hr>
+        <h3>ABOUT ME</h3>
+    </div>
+
+
+    <div class="about-me-white">
+        
+        <div class="box">
+            <h3>장점</h3>
+            <ul>
+                <li>실패로부터 배우는 편</li>
+                <li>시도하는 것을 두려워하지 않음</li>
+            </ul>
+        </div>
+        
+        
+        <div class="box">
+            <h3>단점</h3>
+            <ul>
+                <li>미루기를 잘함</li>
+                <li>체력이 약함</li>
+            </ul>
+        </div>
+        
+        <div class="box">
+            <h3>올해의 목표</h3>
+            <ol>
+                <li>운동 꾸준히 하기</li>
+                <li>제주대 교환학생</li>
+                <li>대외활동 도전</li>
+                <li>템플스테이 가보기</li>
+            </ol>
+        </div>
+        <hr>
+        <h3>ABOUT ME</h3>
+    </div>
+
+
+    <div class="contact-zone">
+        <h3>CONTACT ME</h3>
+        <p>Instagram: @hyojeann</p>
+        <p>Mail: baeehje0618@naver.com</p>
+        <p><a href="https://github.com/sy11281008-sys/haedal">Github</a></p>
+    </div>
+
+    <section class="goal-section">
+        <h2>Bucket List</h2>
+        <p class="goal-description">
+        앞으로 이루고 싶은 목표를 체크리스트로 관리해보세요.
+        </p>
+
+        <div class="goal-input-box">
+            <input
+                id="goalInput"
+                type="text"
+                placeholder="예: 혼자서 해외여행"
+            >
+            <button id="addGoalBtn">추가</button>
+        </div>
+
+        <p id="errorMessage"></p>
+        <p id="goalCount">현재 목표 0개</p>
+        <ul id="goalList"></ul>
+    </section>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
