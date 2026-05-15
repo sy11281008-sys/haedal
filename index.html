@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>배효진 | 포트폴리오</title>
+    <link rel="stylesheet" href="styless2.css">
+</head>
+<body>
+
+    <header class="header">
+        <h1>BAE HYOJIN</h1>
+        <p class="motto">"준비된 자에게 기회는 온다"</p>
+    </header>
+
+    <main class="container">
+        <section class="card profile-section">
+            <div class="profile-img">
+                <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDA1MTNfMTc5%2FMDAxNzE1NTI4OTgwMjAz.BTqKFOztPedcBVnJ0Gac8rFU5vp9Pv67Tr3mL99N-4Mg.wjSk7XpOqscpN9lO1P_ploOYXs3FrunekgXNmONTUF8g.JPEG%2FIMG_4517.JPG&type=sc960_832" alt="배효진 프로필 사진">
+            </div>
+            <div class="profile-info">
+                <h2>배효진</h2>
+                <p><strong>나이:</strong> 21살</p>
+                <p><strong>전공:</strong> 경북대 전자공학부 25학번</p>
+                <p><strong>MBTI:</strong> INTP</p>
+            </div>
+        </section>
+
+        <section class="card details-section">
+            <div class="info-group">
+                <h3>✨ 좋아하는 것</h3>
+                <ul>
+                    <li>아무런 스케줄 없는 날</li>
+                    <li>신상 디저트 먹어보기</li>
+                    <li>귀여운 고양이 영상</li>
+                </ul>
+            </div>
+            <div class="info-group">
+                <h3>⚾ 취미</h3>
+                <ul>
+                    <li>야구 시청</li>
+                    <li>소설책 읽기</li>
+                    <li>낮잠 자기</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="card pros-cons-section">
+            <div class="box">
+                <h3>👍 장점</h3>
+                <ul>
+                    <li>실패로부터 배우는 편</li>
+                    <li>시도하는 것을 두려워하지 않음</li>
+                </ul>
+            </div>
+            <div class="box">
+                <h3>🥲 단점</h3>
+                <ul>
+                    <li>미루기를 잘함</li>
+                    <li>체력이 약함</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="card goal-section">
+            <h2>📝 올해의 Bucket List</h2>
+            <p class="goal-description">앞으로 이루고 싶은 목표를 추가하고 체크해보세요.</p>
+            
+            <div class="goal-input-box">
+                <input id="goalInput" type="text" placeholder="예: 템플스테이 가보기">
+                <button id="addGoalBtn">추가</button>
+            </div>
+            
+            <p id="errorMessage" class="error"></p>
+            <p id="goalCount">현재 목표 4개</p>
+            <ul id="goalList">
+                <li class="goal-item"><span class="goal-text">운동 꾸준히 하기</span><button class="delete-btn">삭제</button></li>
+                <li class="goal-item"><span class="goal-text">제주대 교환학생</span><button class="delete-btn">삭제</button></li>
+                <li class="goal-item"><span class="goal-text">대외활동 도전</span><button class="delete-btn">삭제</button></li>
+                <li class="goal-item"><span class="goal-text">템플스테이 가보기</span><button class="delete-btn">삭제</button></li>
+            </ul>
+        </section>
+
+        <section class="card guestbook-section">
+            <h2>💬 방명록</h2>
+            <div class="msg-board">
+                <p id="server-msg">데이터를 불러오는 중입니다...</p>
+                <div id="my-msg" class="my-msg-box">아직 작성된 새 방명록이 없습니다.</div>
+            </div>
+
+            <div class="write-area">
+                <input type="text" id="guest-name" placeholder="이름 (ex. 홍길동)">
+                <input type="text" id="guest-msg" placeholder="응원 한마디 남겨주세요!">
+                <button id="submit-btn">등록</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <h2>CONTACT ME</h2>
+        <div class="contact-links">
+            <a href="https://instagram.com/hyojeann" target="_blank">Instagram: @hyojeann</a>
+            <a href="mailto:baehjin25@knu.ac.kr">Mail: baehjin25@knu.ac.kr</a>
+            <a href="https://github.com/sy11281008-sys/haedal" target="_blank">GitHub</a>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
